@@ -8,7 +8,7 @@ p1.present();
 
 # Methods
 print(Math.add(1, 2));
-print(Math.clamp(0,1, 6));
+print(Math.clamp(0, 1, 6));
 
 # "Polymorthism"
 polymorphism.printType(p1);
