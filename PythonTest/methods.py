@@ -36,3 +36,21 @@ class Math:
     else:
         return a
  
+import random;
+from os import read
+
+class Random:
+        @staticmethod
+        def next(min, max):
+            return random.randrange(min, max)
+
+class File:
+    @staticmethod
+    def writeAllText(path, text, encoding="utf-8"):
+     with open(path, "w",encoding=encoding) as f:
+       f.write(text)
+
+    @staticmethod
+    def readAllText(path, encoding="utf-8"):
+       with open (path, "r", encoding=encoding) as f:
+         return f.read()
