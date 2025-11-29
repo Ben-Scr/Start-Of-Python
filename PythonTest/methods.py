@@ -36,7 +36,7 @@ class Math:
     else:
         return a
  
-import random;
+import random
 from os import read
 
 class Random:
